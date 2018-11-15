@@ -7,3 +7,9 @@ Google provides a language model trained on 1 billion words
  log-probability of a sentence.
 
 It targets Python 3.6.
+
+# Installation
+
+```
+pip install .
+```

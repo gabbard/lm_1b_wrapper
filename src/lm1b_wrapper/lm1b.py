@@ -8,7 +8,7 @@ import tensorflow as tf
 from attr import attrs, attrib
 from google.protobuf import text_format
 
-from data_utils import CharsVocabulary
+from lm1b_wrapper.data_utils import CharsVocabulary
 
 TensorflowSession = Any
 TensorflowNode = Any

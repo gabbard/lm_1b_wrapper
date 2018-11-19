@@ -16,7 +16,8 @@ setup(name='lm_1b_wrapper',
           # we deliberately leave out tensorflow so we don't mess with your existing
           # tensorflow install
           'attrs>=17.3.0',
-          'vistautils>=0.4.0'
+          'vistautils>=0.4.0',
+          'contexttimer>=0.3.3'
       ],
       scripts=['scripts/dump_sentence_probs.py']
       )
